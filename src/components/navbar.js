@@ -1,4 +1,5 @@
 import React from 'react'
+import Header from './header';
 
 const Navbar = () => {
   return (
@@ -19,6 +20,7 @@ const Navbar = () => {
           </ul>
         </nav>
       </div>
+      <Header />
     </header>
   )
 }
