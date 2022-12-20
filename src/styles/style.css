@@ -91,3 +91,18 @@ img { width: 100% }
   max-width: 60rem;
   margin: 2rem 0 3rem;
 }
+
+/* icons */
+.icons { padding: 30px }
+.icons h3 {
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.icons i {
+  color: #fff;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+  background: var(--primary);
+}

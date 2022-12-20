@@ -82,3 +82,15 @@
   border: 1px solid var(--primary);
   color: var(--white);
 }
+
+.flex-items {
+  height: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.flex-items > div {
+  padding: 20px;
+  flex-basis: 100%;
+}
