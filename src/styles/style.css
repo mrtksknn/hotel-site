@@ -129,3 +129,7 @@ img { width: 100% }
   font-weight: 700;
 }
 .card-body { padding: 2rem }
+
+/* teams */
+.teams img { border-radius: 10px }
+.teams img:hover { opacity: 0.7 }
