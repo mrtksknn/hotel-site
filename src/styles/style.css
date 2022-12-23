@@ -57,7 +57,7 @@ img { width: 100% }
 /* header */
 .main-header {
   height: 100vh;
-  color: #fff;
+  color: var(--white);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -100,7 +100,7 @@ img { width: 100% }
 }
 
 .icons i {
-  color: #fff;
+  color: var(--white);
   padding: 1rem;
   border-radius: 50%;
   margin-bottom: 1.5rem;
@@ -108,7 +108,7 @@ img { width: 100% }
 }
 
 /* about */
-.about { color: #fff }
+.about { color: var(--white) }
 
 .about h2 {
   font-size: 4rem;
@@ -122,3 +122,10 @@ img { width: 100% }
   opacity: 0.8;
   cursor: pointer;
 }
+
+/* cards */
+.card {
+  color: var(--white);
+  font-weight: 700;
+}
+.card-body { padding: 2rem }
