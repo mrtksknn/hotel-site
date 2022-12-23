@@ -108,11 +108,17 @@ img { width: 100% }
 }
 
 /* about */
-#about { color: #fff }
+.about { color: #fff }
 
-#about h2 {
+.about h2 {
   font-size: 4rem;
   font-weight: 400;
 }
 
-#about p { margin: 2rem 0 }
+.about p { margin: 2rem 0 }
+
+/* gallery */
+.gallery img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

@@ -1,4 +1,5 @@
 import About from "./components/about";
+import Gallery from "./components/gallery";
 import Navbar from "./components/navbar";
 import Services from "./components/services";
 
@@ -9,6 +10,7 @@ function App() {
       <main>
         <Services />
         <About />
+        <Gallery />
       </main>
     </div>
   );

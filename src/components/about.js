@@ -3,7 +3,7 @@ import about1 from '../assets/about1.jpeg';
 
 const About = () => {
   return (
-    <section id='about' className='flex-columns'>
+    <section id='about' className='about flex-columns'>
       <div className='row'>
         <div className='column'>
           <div className='column-1'>
