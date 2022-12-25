@@ -38,6 +38,7 @@ img { width: 100% }
   padding: 0 3rem;
   color: var(--white);
   align-items: center;
+  z-index: 10 !important;
   background-color: var(--dark);
   justify-content: space-between;
 }
@@ -165,3 +166,19 @@ img { width: 100% }
 .footer a { color: var(--danger) }
 .footer a:hover { opacity: 0.7 }
 .footer .social a { margin-right: 10px }
+
+
+/* mobile */
+@media(max-width: 768px) {
+  html { font-size: 9px }
+  .navbar {
+    height: 120px;
+    padding: 20px;
+    flex-direction: column;
+  }
+  .navbar a {
+    padding: 10px;
+    margin: 0 3px;
+  }
+  .teams img { width: 70% }
+}
