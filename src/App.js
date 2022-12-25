@@ -1,9 +1,11 @@
-import About from "./components/about";
-import Gallery from "./components/gallery";
-import Navbar from "./components/navbar";
-import Rooms from "./components/rooms";
-import Services from "./components/services";
-import Teams from "./components/teams";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Gallery from "./components/Gallery";
+import Navbar from "./components/Navbar";
+import Rooms from "./components/Rooms";
+import Services from "./components/Services";
+import Teams from "./components/Teams";
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
         <Gallery />
         <Rooms />
         <Teams />
+        <Contact />
       </main>
+      <Footer />
     </div>
   );
 }

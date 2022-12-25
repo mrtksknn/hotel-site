@@ -133,3 +133,35 @@ img { width: 100% }
 /* teams */
 .teams img { border-radius: 10px }
 .teams img:hover { opacity: 0.7 }
+
+/* contact */
+.contact-form {
+  width: 100%;
+  padding: 2rem 0;
+}
+.contact-form label {
+  display: block;
+  margin-bottom: .5rem;
+}
+.contact-form .form-control { margin-bottom: 1.5rem }
+.contact-form input {
+  width: 100%;
+  padding: 5px;
+  height: 40px;
+  border: 1px solid #f5f5f5;
+}
+.contact-form .bnt { margin-top: 20px }
+.contact h2 { font-size: 4rem }
+
+/* footer */
+.footer {
+  height: 200px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer a { color: var(--danger) }
+.footer a:hover { opacity: 0.7 }
+.footer .social a { margin-right: 10px }
